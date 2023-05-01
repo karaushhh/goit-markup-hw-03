@@ -29,17 +29,17 @@
 .div-head{
     display: flex;
     width: 1158px;
-    padding: 0.15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .container{
-    padding: 0.15px;
+
 }
 
     .nav-header {
         /* Menu Nav */
         
-        padding: 24px 0 24px;
+        padding: 24px 0;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
