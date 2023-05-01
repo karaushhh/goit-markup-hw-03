@@ -18,6 +18,11 @@
         background-color:var(--background-color);
         color: var(--body-text); 
     }
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
     .header {
         
       
@@ -41,12 +46,23 @@ align-items: flex-start;
     }
     .link{
      text-decoration: none;
-   }
+    }
+    .ul-header{
+        width: 261px;
+height: 24px;
+
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+    }
     .logo-link {
         /* Web */
 
 
-
+        width: 44px;
+        height: 21px;
 
 font-family: "Raleway", sans-serif;
 color: var(--color-partlogo-buttons);
@@ -55,6 +71,7 @@ font-weight: 800;
 line-height: 1.17;
 font-size: 18px;
 text-decoration: none;
+
 /* identical to box height, or 117% */
 
 display: flex;
@@ -64,7 +81,8 @@ text-transform: uppercase;
     }
     .logo-linktwo {
        
-
+        width: 71px;
+        height: 21px;
 
 font-family: "Raleway", sans-serif;
 color: var(--color-title-h2-h3-darkbg);
@@ -73,6 +91,8 @@ font-weight: 800;
 line-height: 1.17;
 font-size: 18px;
 text-decoration: none;
+
+
 /* identical to box height, or 117% */
 
 display: flex;
@@ -146,6 +166,7 @@ font-family: 'Roboto';
 font-style: normal;
 text-decoration: none;
 list-style: none;
+display: inline;
 
     }
     .gmail{
@@ -156,6 +177,7 @@ list-style: none;
         font-size: 16px;
         line-height: 24px;
         list-style: none
+        
     }
 
 
