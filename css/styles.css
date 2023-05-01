@@ -30,6 +30,7 @@
     display: flex;
     width: 1158px;
     padding: 0.15px;
+    margin: 0 auto;
 }
 
     .nav-header {
@@ -39,6 +40,7 @@
 display: flex;
 flex-direction: row;
 align-items: flex-start;
+align-items: center; 
     }
     .link{
      text-decoration: none;
@@ -67,7 +69,7 @@ align-items: flex-start;
     .logo-link {
         /* Web */
         
-        
+        margin-right: 76px;
 font-family: "Raleway", sans-serif;
 color: var(--color-partlogo-buttons);
 font-style: normal;
@@ -87,7 +89,7 @@ text-transform: uppercase;
        /*Studio*/
         width: 71px;
         height: 21px;
-
+        
 font-family: "Raleway", sans-serif;
 color: var(--color-title-h2-h3-darkbg);
 font-style: normal;
@@ -163,12 +165,13 @@ gap: 40px
     }
     .ul-adresa {
 /* Body */
-
+display: flex;
 font-family: 'Roboto';
 font-style: normal;
 text-decoration: none;
 list-style: none;
 display: inline;
+gap: 40px
 
     }
     .gmail{
