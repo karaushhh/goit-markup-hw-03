@@ -53,6 +53,9 @@ align-items: flex-start;
         top: 24px;
         
     }
+    .img{
+        display: block
+    }
     .li-header{
         flex-direction: row;
         
