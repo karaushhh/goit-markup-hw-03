@@ -52,7 +52,8 @@ align-items: center;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 24px 0 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         gap: 40px;
         
         position: absolute;
