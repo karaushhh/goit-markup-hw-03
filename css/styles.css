@@ -39,7 +39,7 @@
     .nav-header {
         /* Menu Nav */
         
-        padding: 24px 0;
+        
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -52,7 +52,7 @@ align-items: center;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 0px;
+        padding: 24px 0;
         gap: 40px;
         
         position: absolute;
