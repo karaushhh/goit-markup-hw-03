@@ -179,7 +179,7 @@ gap: 40px
 
     }
     .gmail{
-        display: flex;
+      
         color: var(--body-text);
         text-decoration: none;
         list-style: none;
