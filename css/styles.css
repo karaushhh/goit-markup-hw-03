@@ -292,14 +292,14 @@ border-radius: 4px;
     
 
     .li-sectiontwoa {
-        flex-basis: calc((100% - 3 * 24px) / 4);
+        
     }
 
     .sectiontwo-h {
 
 
 /* Header 3 */
-
+flex-basis: calc((100% - 3 * 24px) / 4);
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
