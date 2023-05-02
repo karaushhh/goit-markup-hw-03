@@ -68,7 +68,7 @@ align-items: center;
     }
     .li-header{
         flex-direction: row;
-        
+
     }
     .logo-link {
         /* Web */
@@ -158,15 +158,15 @@ letter-spacing: 0.02em;
         text-decoration: none;
     }
     
-    .li-header:focus,
-    .li-header:hover{
+    .li-headera:focus,
+    .li-headera:hover{
         color: #404bbf;
     }
     .adresa {
         font-family: 'Roboto';
 font-style: normal;
 display: flex;
-gap: 40px
+gap: 40px;
     }
     .ul-adresa {
 /* Body */
@@ -187,8 +187,7 @@ gap: 40px
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        list-style: none
-        
+        list-style: none;
     }
 
 
