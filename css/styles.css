@@ -292,7 +292,7 @@ border-radius: 4px;
     
 
     .li-sectiontwoa {
-        flex-basis: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 3 * 24px) / 4)
     }
 
     .sectiontwo-h {
@@ -815,10 +815,10 @@ border: 1px solid #E7E9FC;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--color-title-h2-h3-darkbg);
-
+    margin-bottom: 8px
 }
 .titlep {
-    margin-bottom: 8px;
+    
      font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
