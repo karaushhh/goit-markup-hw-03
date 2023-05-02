@@ -56,12 +56,6 @@ align-items: center;
         padding-bottom: 24px;
         gap: 40px;
         
-        position: absolute;
-        width: 261px;
-        height: 24px;
-        left: 347px;
-        top: 24px;
-        
     }
     .img{
         display: block
@@ -137,7 +131,6 @@ letter-spacing: 0.02em;
         background-color: #FFFFFF;
         cursor: pointer;
         flex-direction: row;
-        padding: 24px 0;
         text-decoration: none;
         list-style: none;
     }
@@ -149,6 +142,7 @@ letter-spacing: 0.02em;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        
         letter-spacing: 0.02em;
         color: var(--color-title-h2-h3-darkbg);
         background-color: #FFFFFF;
@@ -170,7 +164,7 @@ gap: 40px;
     }
     .ul-adresa {
         display: flex;
-        gap: 40px;
+        gap: 20px;
     }
     .li-headeradress{
 
@@ -568,6 +562,14 @@ letter-spacing: 0.02em;
 
 color: var(--color-resst);
 
+}
+.port-divhead{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .port-main {
     list-style: none;
