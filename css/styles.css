@@ -295,7 +295,7 @@ border-radius: 4px;
         
     }
     .li-sectiontwoa {
-        
+        width: calc((100% - 72px) / 4);
         
 
 
@@ -303,7 +303,7 @@ border-radius: 4px;
 
     }
     .li-sectiontwob{
-        width: calc((100% - 72px) / 4);
+        
 
 
 
