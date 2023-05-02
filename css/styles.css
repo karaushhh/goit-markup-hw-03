@@ -137,6 +137,7 @@ letter-spacing: 0.02em;
         background-color: #FFFFFF;
         cursor: pointer;
         flex-direction: row;
+        padding: 24px 0;
         text-decoration: none;
         list-style: none;
     }
