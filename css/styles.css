@@ -579,12 +579,16 @@ color: var(--color-resst);
     
     list-style: none;
     text-decoration: none;
-
-
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    
 }
 .port-mainli {
     list-style: none;
     text-decoration: none;
+    padding: 12px 24px
 
 }
 .button-text{
