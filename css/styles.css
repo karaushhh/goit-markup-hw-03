@@ -130,6 +130,7 @@ letter-spacing: 0.02em;
         color: var(--color-title-h2-h3-darkbg);
         background-color: #FFFFFF;
         cursor: pointer;
+        padding: 24px 0; 
         flex-direction: row;
         text-decoration: none;
         list-style: none;
@@ -160,11 +161,11 @@ letter-spacing: 0.02em;
         font-family: 'Roboto';
 font-style: normal;
 display: flex;
-gap: 40px;
+
     }
     .ul-adresa {
         display: flex;
-        gap: 20px;
+        gap: 40px;
     }
     .li-headeradress{
 
