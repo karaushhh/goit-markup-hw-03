@@ -294,8 +294,12 @@ border-radius: 4px;
         gap: 24px; 
         
     }
+    
+    .ul-sectiontwo:first-child{
+        width: calc((100% - 72px) / 4)
+    }
     .li-sectiontwoa {
-        width: calc((100% - 72px) / 4);
+        
         
 
 
