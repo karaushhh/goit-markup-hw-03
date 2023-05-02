@@ -644,7 +644,6 @@ color: var(--color-resst);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .port-sectionul {
     list-style: none;
@@ -819,6 +818,7 @@ border: 1px solid #E7E9FC;
 
 }
 .titlep {
+    margin-bottom: 8px;
      font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
