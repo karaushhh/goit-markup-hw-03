@@ -272,7 +272,7 @@ border-radius: 4px;
         
     }
     .sectiontwo {
-        
+        padding: 120px 0;
         
     }
     .visually-hidden {
@@ -290,17 +290,20 @@ border-radius: 4px;
     .ul-sectiontwo {
         list-style: none;
         text-decoration: none;
+        display: flex;
+        gap: 24px; 
+        
     }
     .li-sectiontwoa {
         
-
+        
 
 
 
 
     }
     .li-sectiontwob{
-       
+        width: calc((100% - 72px) / 4);
 
 
 
@@ -329,7 +332,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 /* identical to box height, or 120% */
-
+margin-bottom: 8px;
 letter-spacing: 0.02em;
 
 
