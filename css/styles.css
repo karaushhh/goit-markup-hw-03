@@ -568,6 +568,9 @@ color: var(--color-resst);
     margin: 0 auto;
     padding: 0 15px;
 }
+.port-section{
+    padding: 96px 0 120px;
+}
 .port-main {
     list-style: none;
     text-decoration: none;
