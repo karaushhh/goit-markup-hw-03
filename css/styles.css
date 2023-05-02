@@ -588,7 +588,7 @@ color: var(--color-resst);
 .port-mainli {
     list-style: none;
     text-decoration: none;
-    padding: 12px 24px
+    
 
 }
 .button-text{
@@ -613,6 +613,7 @@ color: var(--color-resst);
 .button-linkp{
 
     box-sizing: border-box;
+    padding: 12px 24px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -633,6 +634,7 @@ color: var(--color-resst);
 .button-linkp:focus,
 .button-linkp:hover{
     color:#FFFFFF;
+    border: 1px solid transparent;
     background-color: #404BBF;
 }
 .port-section {
@@ -641,10 +643,14 @@ color: var(--color-resst);
 .port-sectionul {
     list-style: none;
 text-decoration: none;
+display: flex;
+flex-wrap: wrap; 
+column-gap: 24px;
+row-gap: 48px;
 }
 .port-sectionlia {
     box-sizing: border-box;
-
+    width: calc((100% - 48px) / 3); 
 
 
 /* WHITE
