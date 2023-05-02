@@ -449,13 +449,13 @@ color: var(--color-title-h2-h3-darkbg);
         text-decoration: none;
         display: flex;
         gap: 24px;
-        width: calc((100% - 72px) / 4);
    
     }
     .div-name{
         padding: 32px 16px;
     }
     .sectionfour-li {
+        flex-basis: calc((100% - 72px) / 4);
         display: flex;
     flex-direction: column;
     
