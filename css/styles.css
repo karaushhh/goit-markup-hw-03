@@ -225,7 +225,8 @@ text-align: center;
 letter-spacing: 0.02em;
     }
     .sectionone-button{
-        
+       min-width: 169px;
+       height: 56px;
 /* Button */
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -235,6 +236,8 @@ letter-spacing: 0.04em;
 color:#FFFFFF;
 cursor: pointer;
 /* Auto layout */
+display: block;
+border: none;
 
 
 
