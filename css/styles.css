@@ -494,7 +494,7 @@ color: var(--body-text);
 
     }
 .footer{
-  
+    padding: 100px 0;
     
     /* NAVY BLUE */
     
@@ -509,7 +509,8 @@ color: var(--body-text);
         font-size: 18px;
       
         /* identical to box height, or 117% */
-        
+        display: inline-block;
+        margin-bottom: 16px;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -553,7 +554,7 @@ color: var(--color-resst);
     .footer-p {
 
 /* Body */
-
+max-width: 264px;
 font-family: "Roboto";
 font-style: normal;
 font-weight: 400;
