@@ -169,15 +169,18 @@ display: flex;
 gap: 40px;
     }
     .ul-adresa {
-/* Body */
-display: flex;
+        
+    }
+    .li-headeradress{
+
+        display: flex;
 font-family: 'Roboto';
 font-style: normal;
 text-decoration: none;
 list-style: none;
 display: inline;
-gap: 40px
-
+padding: 24 0 24;
+gap: 40px;
     }
     .gmail{
       
