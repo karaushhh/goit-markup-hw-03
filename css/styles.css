@@ -295,12 +295,10 @@ border-radius: 4px;
         
     }
     
-    .ul-sectiontwo:first-child{
-        width: calc((100% - 72px) / 4)
-    }
+
     .li-sectiontwoa {
         
-        
+     flex-basis: calc((100% - 72px) / 4)
 
 
 
@@ -372,12 +370,12 @@ color: var(--body-text);
 
     }
     .sectionthree {
-        
+        padding-bottom: 120px;
         
     }
     .sectionthree-h {
         
-
+        margin-bottom: 72px;
 
 /* Header 2 */
 
@@ -399,10 +397,12 @@ color: var(--color-title-h2-h3-darkbg);
     .sectionthree-ul{
         list-style: none;
         text-decoration: none;
+        display: flex; 
+        gap: 24px;
     }
     .sectionthree-lia {
        
-
+        width: calc((100% - 48px) / 3);
 
 
 
