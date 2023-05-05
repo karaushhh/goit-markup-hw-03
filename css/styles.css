@@ -85,8 +85,7 @@ text-transform: uppercase;
     }
     .logo-linktwo {
        /*Studio*/
-        width: 71px;
-        height: 21px;
+
         
 font-family: "Raleway", sans-serif;
 color: var(--color-title-h2-h3-darkbg);
@@ -117,7 +116,9 @@ letter-spacing: 0.02em;
        
     }
     .list{
-        
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
     .li-headera{ 
         display: list-item;
@@ -161,7 +162,9 @@ letter-spacing: 0.02em;
         font-family: 'Roboto';
 font-style: normal;
 display: flex;
-
+font-style: normal;
+margin-left:auto;
+align-items: center;
     }
     .ul-adresa {
         display: flex;
@@ -175,16 +178,15 @@ font-style: normal;
 text-decoration: none;
 list-style: none;
 display: inline;
+
     }
     .gmail{
       
         color: var(--body-text);
         text-decoration: none;
-        list-style: none;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        list-style: none;
     }
 
 
@@ -215,7 +217,8 @@ line-height: 1.07;
 font-size: 56px;
 color: var(--background-color);
 /* or 107% */
-
+margin: 0 auto;
+margin-bottom: 48px;
 text-align: center;
 letter-spacing: 0.02em;
     }
@@ -231,6 +234,7 @@ letter-spacing: 0.04em;
 color:#FFFFFF;
 cursor: pointer;
 /* Auto layout */
+margin: 0 auto;
 display: block;
 border: none;
 
@@ -299,6 +303,7 @@ border-radius: 4px;
 
 
 /* Header 3 */
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
