@@ -18,15 +18,18 @@
         background-color:var(--background-color);
         color: var(--body-text); 
     }
-    h1
-    h2
-    h3
-    h4
-    h5
-    h6
-    p
-    {
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    ul,
+    li,
+    p{
         margin: 0;
+        padding: 0;
     }
  *,
 *::before,
@@ -222,7 +225,7 @@ display: inline;
 
 font-family: "Roboto", sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 line-height: 1.07;
 font-size: 56px;
 color: var(--background-color);
